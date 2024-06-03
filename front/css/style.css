@@ -1,0 +1,152 @@
+/* Estilos para el cuerpo, encabezado y navegación */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1919; /* Fondo negro del body */
+    color: #fff; /* Color del texto blanco */
+}
+
+header {
+    background-image: url(https://cdn.wallpapersafari.com/33/49/RZfYKQ.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    background-color: #1b1919;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#proyecto-m2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+nav li a{
+    color: aliceblue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 5px;
+} 
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* Estilos para las tarjetas de películas */
+.peliculas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta-pelicula {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 250px;
+    height: 560px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 2px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 2px 2px 10px 2px rgba(255,255,255,0.75);
+    -moz-box-shadow: 2px 2px 10px 2px rgba(255,255,255,0.75);
+}
+
+.imagen-pelicula {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.info-pelicula h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.info-pelicula p {
+    margin: 0;
+}
+
+/* Styles for the movie form */
+#movie-form {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+#movie-form h2 {
+    margin-bottom: 10px;
+}
+
+#movie-form label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+#movie-form input,
+#movie-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+#movie-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#movie-form button:hover {
+    background-color: #0056b3;
+}
+

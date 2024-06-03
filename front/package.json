@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "run": "npm functions.js",
+    "build": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "live-server": "^1.2.2",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
